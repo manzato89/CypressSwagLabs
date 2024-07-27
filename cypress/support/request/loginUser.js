@@ -4,6 +4,7 @@ import cLogin from "../controller/cLogin";
 
 function visit(){
     cLogin.acessarSite()
+    cy.wait(2000)
 }
 
 function loginStandardUser(){

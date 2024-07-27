@@ -6,13 +6,10 @@ export const mLogin = {
     },
 
     buttons: {
-        btnLogin: '#login-button',
+        btnLogin: '[data-test="login-button"]',
     },
 
     alerts: {
         msgError: '[data-test="error"]',
     }
-
-
-
 }

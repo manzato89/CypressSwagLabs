@@ -21,7 +21,7 @@ class cLogin {
     }
 
     clicarBtnLogin(){
-        cy.get(Element.button.btnLogin)
+        cy.get(Element.buttons.btnLogin)
             .should('exist')
             .click()
     }
